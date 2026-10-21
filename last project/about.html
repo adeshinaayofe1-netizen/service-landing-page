@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  </head>
+<body>
+  <!------- header --------->
+  <header class="header">
+      <a href="#"> <img src="logo.png" alt="logo" ></a>
+      <div class="navMenu" id="navMenu">
+        <i class='bx bx-x' id="nav-close" onclick="closeMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' id="nav-toggle"  onclick="openMenu()"></i>
+  </header>
+       <!-------------sub-header session--------> 
+       <section class="sub-header" id="sub-header">
+         <h1>About <span>Me</span></h1>
+       </section>  
+      <!------- about session ------------>
+      <section class="about" id="about">
+          <div class="about-img">
+            <img src="mine3.png" alt="My Photo">
+          </div>
+          <div class="about-text">
+           <h4><span>I'm a</span> Frontend Developer and Creative Designer</h4>
+            <p>Who loves creating effective and beautiful user experiences. With a paassion for technology and a knack for problem-solving. I'm always looking for new and creative ways to bring ideas to life. <br> <br> With my experiences in technology,design,editing and creativity,I empower people to take control of their own destiny and build the life they want. Whether it's learning to code,design a wbsite,editing a video, or simply expanding their horizons, I'm here to support them every step of the way. <br> <br> When I'm not working on the latest design project,you will find me doing things I love,like reading,sporting or outing.I'm a big believer in the power of balance, and I make sure to take time for the things that brings me joy. This approach helps me bring fresh ideas and a positive attitude to every project I take on.      </p>
+              <a href="#" class="btn">let's Talk</a>
+            </div>
+      </section>
+           
+         <section class="others" id="others">
+          <div class="sub-text-title">
+            <h2 >Why <span>Me?</span></h2>
+          </div>
+          <div class="others-img">
+            <img src="logo.png" alt="" width="200px">
+            <span class="circle-spin"></span>
+          </div>
+          <div class="others-text">
+            <h3><span>As</span> a design technologist & a web development trainer</h3>
+            <p>
+              - I bring a unique perspective to my work, combining technical expertise with creative vision.<br><br>
+              - I understand that each person and each project is unique, and i tailor my approach to meet individual needs.<br><br>
+              - I help people achieve their full potential and make their dreamsa reality.  
+            </p>
+          </div>
+          <div>
+            <a href="#" class="btn">Hire Me</a>
+          </div>
+         </section>
+                  <!----------------footer-------->
+            <footer class="footer">
+              <div class="attribution">
+                <p>Design With <i class="bx bx-heart"></i>By <span>IBN-L-AMNI</span> Creative studio </p>
+              </div>
+              <div class="move-up">
+                <a href="#sub-header"> <i class="bx bx-up-arrow-alt"></i> </a>
+              </div>
+            </footer>
+             <!-------------js for togle menu------>
+            <script>
+              var navMenu = document.getElementById("navMenu");
+ 
+              function openMenu() {
+                 navMenu.style.right = "0";
+                }
+
+                 function closeMenu() {
+                 navMenu.style.right = "-200px";
+                }
+            </script>
+  </body>
+</html>

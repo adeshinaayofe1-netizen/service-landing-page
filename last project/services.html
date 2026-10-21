@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  </head>
+<body>
+  <!------- header --------->
+  <header class="header">
+      <a href="#"> <img src="logo.png" alt="logo" ></a>
+      <div class="navMenu" id="navMenu">
+        <i class='bx bx-x' id="nav-close" onclick="closeMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' id="nav-toggle"  onclick="openMenu()"></i>
+  </header>
+       <!-------------sub-header session--------> 
+       <section class="sub-header" id="sub-header">
+         <h1>My <span>Services</span></h1>
+       </section>  
+       <!------- services session ------------>
+      <section class="services" id="services">
+        <div class="text-title">
+          <h2><span>What I </span>Do?</h2>
+          </div>
+          <div class="services-content">
+            <div class="box">
+            <div class="icons">
+             <i class="bx bx-code"></i>
+
+          </div>
+          <h3>Frontend Developement</h3>
+          <p>I take beautiful UI designs and bring them to life with clean,functional code.Using HTML,CSS and javascript, I made sure that every detail is just right, so the final result is a seamless and user-friendly experience.From concept to completion,I'm here to make your vision a reality.</p>
+          <a href="#" class="btn">start a project</a>
+          </div>
+           <div class="box">
+            <div class="icons">
+             <i class="bx bx-devices"></i>
+
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Design is more than just making things look pretty.it's about solving problems in a user-friendly way.That's why I approach UI/UX design with a focus on the end user,creating interfaces that are intuitive and easy to use.Let's create an experience that delights your user and meets your goals.</p>
+          <a href="#" class="btn">start a project</a>
+          </div>
+           <div class="box">
+            <div class="icons">
+             <i class="bx bx-pen"></i>
+
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Good graphics design is about more than just making things look pretty. it's about communicating ideas and emotions through visual elements wheather it's a logo,an illustration or a complete brand identity, I use my graphics design skills to create designs that are eye-catching and effective.</p>
+          <a href="#" class="btn">start a project</a>
+          </div>
+           <div class="box">
+            <div class="icons">
+             <i class="bx bx-camera"></i>
+
+          </div>
+          <h3>Video Editing</h3>
+          <p>Every great video tells a story, and my goal is to make yours unforgettable. I transform raw footage into engaging, polished videos through  seamless transitions,cinematic effects, color grading, sound design, and precise timing. Whether it's promotional content, social media videos, or storytelling projects, I bring creativity and attention to detail to every frame. From the first cut to the final export, I craft videos that capture attention, communicate your message, and leave a lasting impression.</p>
+          <a href="#" class="btn">start a project</a>
+          </div>
+          </div>
+        </section>
+        <section class="others" id="others">
+          <div class="sub-text-title">
+            <h2 >other<span> services</span></h2>
+          </div>
+          <div class="others-img">
+            <img src="training.png" alt="">
+            <span class="circle-spin"></span>
+          </div>
+          <div class="others-text">
+            <h3><span>Web Development </span>Training</h3>
+            <p>
+            I'm passionate about helping people learn the skills they need to succeed in the world of web development. My training courses focus on the basics of HTML, CSS and javascript giving studentrs a solid foundation to build on. At the end of my courses, students have the tools they need to create their own websites and start thier own web development jorneys. And they receive a certificate of completion, so they can demonstrate their skills to potential employers or clients.   
+            </p>
+          </div>
+          <div>
+            <a href="#" class="btn">Enroll Now</a>
+          </div>
+         </section>
+       
+                  <!----------------footer-------->
+            <footer class="footer">
+              <div class="attribution">
+                <p>Design With <i class="bx bx-heart"></i>By <span>IBN-L-AMNI</span> Creative studio </p>
+              </div>
+              <div class="move-up">
+                <a href="#sub-header"> <i class="bx bx-up-arrow-alt"></i> </a>
+              </div>
+            </footer>
+             <!-------------js for togle menu------>
+            <script>
+              var navMenu = document.getElementById("navMenu");
+ 
+              function openMenu() {
+                 navMenu.style.right = "0";
+                }
+
+                 function closeMenu() {
+                 navMenu.style.right = "-200px";
+                }
+            </script>
+  </body>
+</html>

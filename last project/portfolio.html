@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  </head>
+<body>
+  <!------- header --------->
+  <header class="header">
+      <a href="#"> <img src="logo.png" alt="logo" ></a>
+      <div class="navMenu" id="navMenu">
+        <i class='bx bx-x' id="nav-close" onclick="closeMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class='bx bx-menu' id="nav-toggle"  onclick="openMenu()"></i>
+  </header>
+       <!-------------sub-header session--------> 
+       <section class="sub-header" id="sub-header">
+         <h1><span>Recent</span> projects</h1>
+      </section>
+      <!----------------portfolio session---------------->
+        <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+          <h2><span>Frontend Development</span> projects</h2>
+          </div> 
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="image1.jpg" alt="project1">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="image2.jpg" alt="project2">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+            
+         <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+          <h2><span>UI/UX Design</span> projects</h2>
+          </div>
+            <div class="portfolio-content">
+              <div class="row">
+              <img src="image5.jpg" alt="project5">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+              </div>
+               <div class="row">
+              <img src="image3.jpg" alt="project3">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+              </div>
+           
+            </div>
+            </section>  
+              
+
+              <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+          <h2><span>Graphics Design</span> projects</h2>
+          </div> 
+          <div class="portfolio-content">
+              <div class="row">
+              <img src="image7.jpg" alt="project7">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+              </div>
+              <div class="row">
+              <img src="image8.jpg" alt="project8">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+               <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+              </div>
+              <div class="row">
+              <img src="image9.jpg" alt="project9">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+              </div>
+             <div class="row">
+              <img src="image10.jpg" alt="project10">
+              <div class="cover">
+                <h5>Visual Design</h5>
+                <p>A complete solution for frontend development,user-centric design,and graphics design to give your business a cutting-edge online presence.</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+            </div>
+            </section>
+
+            
+        
+                  <!----------------footer-------->
+            <footer class="footer">
+              <div class="attribution">
+                <p>Design With <i class="bx bx-heart"></i>By <span>IBN-L-AMNI</span> Creative studio </p>
+              </div>
+              <div class="move-up">
+                <a href="#sub-header"> <i class="bx bx-up-arrow-alt"></i> </a>
+              </div>
+            </footer>
+             <!-------------js for togle menu------>
+            <script>
+              var navMenu = document.getElementById("navMenu");
+ 
+              function openMenu() {
+                 navMenu.style.right = "0";
+                }
+
+                 function closeMenu() {
+                 navMenu.style.right = "-200px";
+                }
+            </script>
+  </body>
+</html>

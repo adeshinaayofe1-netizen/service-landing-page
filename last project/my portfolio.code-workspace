@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../.vscode"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html crash code",
+		"liveServer.settings.port": 5501
+	}
+}
